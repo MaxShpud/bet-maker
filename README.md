@@ -77,3 +77,4 @@ docker-compose down -v
 ### API Documentation
 
 Once the service is running, you can access the API documentation at `http://localhost:8001/docs` to explore and interact with the available endpoints.
+![API DOCS](readme_img/api_docs.jpg)
