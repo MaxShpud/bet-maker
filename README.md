@@ -1,6 +1,6 @@
 # Bet-maker Service
 
-# In addition to this service, there is a **[line-provider](https://github.com/MaxShpud/line-provider)**. In order to use the beatmaker service, you must specify events in the line-provider.
+# In addition to this service, there is a **[line-provider](https://github.com/MaxShpud/line-provider)**. In order to use the bet-maker service, you must specify events in the line-provider.
 
 ## Overview
 
