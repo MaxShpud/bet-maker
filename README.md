@@ -14,6 +14,11 @@ Go-to source for real-time, up-to-the-minute information on a wide array of even
 - Pydantic
 - SQLAlchemy
 - PostgreSQL
+- Redis
+
+
+## Architecture 
+Simple layered architecture.
 
 ## Installation and Setup
 
