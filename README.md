@@ -1,6 +1,6 @@
 # Bet-maker Service
 
-# In addition to this service, there is a **[line-provider](https://github.com/MaxShpud/line-provider)**.
+# In addition to this service, there is a **[line-provider](https://github.com/MaxShpud/line-provider)**. In order to use the beatmaker service, you must specify events in the line-provider.
 
 ## Overview
 
@@ -77,4 +77,12 @@ docker-compose down -v
 ### API Documentation
 
 Once the service is running, you can access the API documentation at `http://localhost:8001/docs` to explore and interact with the available endpoints.
+
 ![API DOCS](readme_img/api_docs.jpg)
+
+### How the service works:
+1) GET/bet/{bet_id} allows you to get information about the bid by ID
+2) GET/bets allows you to get information about all bets. There is filtering by the status of the bet: UNFINISHED, WON, LOST
+3) POST/bet allows you to place a bet on an event with the event ID and the amount of the bet.
+4) PUT/bet/status allows updating statuses for events with the specified event_id.
+5) GET/events allows you to get all the events that you can bet on.
